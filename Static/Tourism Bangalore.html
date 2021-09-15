@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="Tourism Bangalore.css">
+</head>
+
+<body>
+    <div id="sectionHome">
+        <div class="bg-container d-flex flex-column justify-content-end">
+            <div class="tourism-card">
+                <h1 class="main-heading">Tourism</h1>
+                <p class="paragraph">Welcome To Bangalore Tourism.</p>
+                <button class="button" onclick="display('sectionFavouritePlaces')">
+                    Get Started
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionFavouritePlaces">
+        <div class="favourite-places-top-section d-flex flex-column justify-content-center">
+            <div>
+                <h1 class="favourite-places-top-section-heading">Bangalore Popular Tourism Places</h1>
+            </div>
+        </div>
+        <div class="favourite-places-bottom-bg-container ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-xl-4 mb-5">
+                        <div class="favourite-places-card-container">
+                            <img src="https://www.holidify.com/images/cmsuploads/compressed/shutterstock_154851008_20200123162547_20200123162603.png" class="favourite-places-card-img" />
+                            <h1 class="favourite-places-card-heading">
+                                Lalbagh Botonical Garden
+                            </h1>
+                            <div class="text-left">
+                                <ul style="list-style-type:disc">
+                                    <li><b>Rs 20</b> for adults</li>
+                                    <li><b>Rs 10</b> for children</li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-info" onclick="display('sectionLalbaghDetailedView')">Explore</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4 mb-5">
+                        <div class="favourite-places-card-container">
+                            <img src="https://static.trip101.com/paragraph_media/pictures/002/262/563/large/Bangalore.jpg" class="favourite-places-card-img" />
+                            <h1 class="favourite-places-card-heading">
+                                Cubbon Park
+                            </h1>
+                            <div class="text-left">
+                                <ul style="list-style-type:disc">
+                                    <li><b>Rs 20</b> for adults</li>
+                                    <li><b>Rs 10</b> for children</li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-info" onclick="display('sectionCubbonParkDetailedView')">Explore</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4 mb-5">
+                        <div class="favourite-places-card-container">
+                            <img src="https://cache-graphicslib.viator.com/graphicslib/page-images/742x525/143813_Bangalore%20Palace_11692.jpg" class="favourite-places-card-img" />
+                            <h1 class="favourite-places-card-heading">
+                                Bangalore Palace
+                            </h1>
+                            <div class="text-left">
+                                <ul style="list-style-type:disc">
+                                    <li><b>Rs 230</b> for Indians</li>
+                                    <li><b>Rs 460</b> for foreigners</li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-info" onclick="display('sectionBangalorePalaceDetailedView')">Explore</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4 mb-5">
+                        <div class="favourite-places-card-container">
+                            <img src="https://www.businessinsider.in/thumb/msid-77476343,width-600,resizemode-4,imgsize-860005/india/news/celebrate-janmashtami-with-a-virtual-darshan-at-iskcon-temple-this-year/iskcon.jpg" class="favourite-places-card-img" />
+                            <h1 class="favourite-places-card-heading">
+                                ISKCON Temple
+                            </h1>
+                            <div class="text-left">
+                                <ul style="list-style-type:disc">
+                                    <li><b>Rs 0</b> for adults</li>
+                                    <li><b>Rs 0</b> for children</li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-info" onclick="display('sectionISKCONDetailedView')">Explore</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4 mb-5">
+                        <div class="favourite-places-card-container">
+                            <img src="https://evac.com/news/wp-content/uploads/sites/8/2019/06/suvarna_shutterstock_36592744.jpg" class="favourite-places-card-img" />
+                            <h1 class="favourite-places-card-heading">
+                                Suvarna Vidhana Soudha
+                            </h1>
+                            <div class="text-left">
+                                <ul style="list-style-type:disc">
+                                    <li><b>Rs 0</b> for adults</li>
+                                    <li><b>Rs 0</b> for children</li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-info" onclick="display('sectionSuvarnaVidhanaSoudhaDetailedView')">Explore</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4 mb-5">
+                        <div class="favourite-places-card-container">
+                            <img src="https://www.beerandcroissants.com/wp-content/uploads/2018/09/Bengaluru-Tipus-summer-palace-front.jpg" class="favourite-places-card-img" />
+                            <h1 class="favourite-places-card-heading">
+                                Tipu Sultan's Summer Palace
+                            </h1>
+                            <div class="text-left">
+                                <ul style="list-style-type:disc">
+                                    <li><b>Rs 15</b> per person for Indians</li>
+                                    <li><b>Rs 200</b> per child for foreigners</li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-info" onclick="display('sectionTipuSultanSummerPalaceDetailedView')">Explore</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionLalbaghDetailedView">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">
+                Detailed View
+            </h1>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="detailed-view-card-container">
+
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/OMyEgYHXlWI?rel=0" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="detailed-view-card-text-container">
+                        <h1 class="detailed-view-card-heading">Lalbagh Botonical Garden</h1>
+                        <p class="detailed-view-card-description text-left">
+                            Lalbagh is one of the oldest botanical gardens in India and is also a major tourist attraction in South India. Located in South Bengaluru, the Lalbagh Botanical Garden is not only one of the largest botanical gardens in India, but also the first of its kind, with planned routes, glasshouses and ornamental flowers growing throughout the property.
+
+                            The garden itself is spread over an area of 240 acres and its construction was commissioned by the famous ruler Hyder Ali. It was finally completed by his son- Tipu Sultan- who designed the gardens keeping in mind the beautiful gardens of Sira in Tumkur District in Karnataka.
+
+                            Lalbagh is home to exotic flowers that were imported by the Sultan from countries like France, Persia, Arabia, Afghanistan, etc. Therefore, flowers that were previously never seen in India were first witnessed in this historical garden. Trees that were imported by Tipu Sultan from all over the world can still be found growing here.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="detailed-view-card-button">
+                <button class="btn btn-dark mr-3" onclick="display('sectionFavouritePlaces')">Back</button>
+                <button class="btn btn-dark">Get Directions</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="sectionCubbonParkDetailedView">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">
+                Detailed View
+            </h1>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="detailed-view-card-container">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DThFLL1da1o?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <div class="detailed-view-card-text-container">
+                        <h1 class="detailed-view-card-heading">Cubbon Park</h1>
+                        <p class="detailed-view-card-description text-left">
+                            Spread over an area of 300 acres, Cubbon Park in the city of Bangalore is a major sightseeing attraction rich in green foliage. It is a green belt region of the city and is an
+                            ideal place for nature lovers and those seeking a calm atmosphere. Having been laid down by Lord Cubbon, the park is named so in his honour. It is home to more than 6,000 trees that
+                            support a vibrant ecosystem. In addition to being a natural sightseeing destination, some of the major structures of the city such as the Attara Kacheri, Cubbon Park Museum and
+                            Sheshadri Iyer Memorial Park are also situated here. Another famous attraction in the Cubbon Park is The Bangalore Aquarium, which is the second largest aquarium in India.
+
+                            In the year 1927, the park was officially renamed as "Sri. Chamarajendra Park" to mark the Silver Jubilee of Sri. Krishnaraja Wodeyar's rule in Mysore State. At present, the Cubbon
+                            Park is under the control of the Department of Horticulture. The Deputy Director of Horticulture (Cubbon Park) is responsible for the administration and maintenance of the park.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="detailed-view-card-button">
+                <button class="btn btn-dark" onclick="display('sectionFavouritePlaces')">Back</button>
+                <button class="btn btn-dark">Get Directions</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionBangalorePalaceDetailedView">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">
+                Detailed View
+            </h1>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="detailed-view-card-container">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2LlIqjtYJ0M?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <div class="detailed-view-card-text-container">
+                        <h1 class="detailed-view-card-heading">Bangalore Palace</h1>
+                        <p class="detailed-view-card-description text-left">
+                            An epitome of great architecture and beauty, The Majestic Bangalore Palace preserves in it the spice of old regal opulence. Currently the central attraction in Bangalore, the palace was built in the year 1878. Chamarajendra Wadiyar's British Guardians bought the original property in 1873 from the principal of Bangalore Central High School, Rev, J Garret, from his funds.
+                            Apart from being a major tourist destination, the palace is a host to different cultural events, rock shows, and marriages. As per beliefs, King Chamarajendra Wadiyar drew his inspiration for building the palace from the Windsor Castle of London. The granite seats decorated with fluorescent blue ceramic tiles on the ground floor, a fairy tale Ballroom, the famous painter Raja Ravi Varma's paintings, vine-covered walls, and the Durbar Hall on the first floor come together to form the prepossessing Bangalore Palace.
+                            A visit to the palace gives you a chance to witness the elegant and lavish splendour of one of the most powerful dynasties of South India. An audio tape is available inside the Palace, both in Hindi and English, to help the people having language issues, understand its history better.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="detailed-view-card-button">
+                <button class="btn btn-dark" onclick="display('sectionFavouritePlaces')">Back</button>
+                <button class="btn btn-dark">Get Directions</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="sectionISKCONDetailedView">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">
+                Detailed View
+            </h1>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="detailed-view-card-container">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xcNtyS7JVXk?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <div class="detailed-view-card-text-container">
+                        <h1 class="detailed-view-card-heading">ISKCON Temple</h1>
+                        <p class="detailed-view-card-description text-left">
+
+                            One of the very famous Hindu temples in the city, ISKCON Temple has become the landmark location in north
+                            Bangalore. For many settled abroad, Hinduism and ISKCON are often synonymous. It is an institution for
+                            learning, practicing and preaching many Hindu beliefs. It is a one stop place for worshipping many gods—Lord
+                            Krishna, Radha, Govinda, Narasimha etc. The highlighting feature about ISKCON, Bangalore, is its famous Akshayapatra
+                            Foundation. They distribute free food for the children in government and government-aided schools across India. This initiative
+                            is much appreciated world-wide and many foreigners have been funding this campaign too. The temple has a magnificent architecture
+                            spread over several acres of land. The temple is at an altitude higher than the road level and helps the passers-by to easily
+                            catch a glimpse of it while on their way. The temple is too huge not to be noticed while on the Chord Road of the Rajajinagar area
+                            in Bangalore.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="detailed-view-card-button">
+                <button class="btn btn-dark" onclick="display('sectionFavouritePlaces')">Back</button>
+                <button class="btn btn-dark">Get Directions</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="sectionSuvarnaVidhanaSoudhaDetailedView">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">
+                Detailed View
+            </h1>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="detailed-view-card-container">
+
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/re60DLbR3zQ?rel=0" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="detailed-view-card-text-container">
+                        <h1 class="detailed-view-card-heading">Suvarna Vidhana Soudha</h1>
+                        <p class="detailed-view-card-description text-left">
+                            The Suvarna Vidhana Soudha, named so to monumentalize the Golden Jubilee of the formation of the state of Karnataka, was inaugurated on 11 October 2012. It is the second legislative building of the government of Karnataka and is situated in the district of Belgaum.
+                            The building area is around 60,398 m² and sprawls across 127 acres of land. The Suvarna Vidhana Soudha is a four-storied structure with an Assembly Hall that can house up to 300 people, a Council chamber that can seat 100 people, a Central Hall that can accommodate 450 people and has 38 chambers for ministers and an additional 14 conference rooms.
+                            The Suvarna Vidhana Soudha is the designated location for the winter session of the legislative assembly. There are ongoing talks to move some of the administrative offices to the new building like that of the Joint Commissioner of Education, Dharwad; Hubli Electricity Company; Chief Engineer of Minor Irrigation, Bijapur and so on.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="detailed-view-card-button">
+                <button class="btn btn-dark mr-3" onclick="display('sectionFavouritePlaces')">Back</button>
+                <button class="btn btn-dark">Get Directions</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="sectionTipuSultanSummerPalaceDetailedView">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">
+                Detailed View
+            </h1>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="detailed-view-card-container">
+
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cPmY0Do98mU?rel=0" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="detailed-view-card-text-container">
+                        <h1 class="detailed-view-card-heading">Tipu Sultan's Summer Palace</h1>
+                        <p class="detailed-view-card-description text-left">
+                            Located at the juncture of Albert Victor Road and Krishna Rajendra, is the magnificent accommodation of the valiant ruler of Mysore- Tipu Sultan. The palace is located in the
+                            Bangalore Fort which is situated in old Bangalore in the south-west Indian state of Karnataka. An exquisite example of Indo- Islamic architecture, the opulent palace was once
+                            used as a summer retreat by the king and was often referred to as the 'Abode of Happiness' and 'Rash e Jannat' meaning 'Envy of Heaven'. Amongst one of the most noteworthy creations
+                            of the ancient times, the palace boasts of ornamental frescoes, magnificent arches, protruding balconies and brilliant motifs. One can take a good leisurely stroll across the balconies
+                            before entering the palace. One is bound to get a glimpse into the royal lifestyle of Tipu Sultan as they explore the palace.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="detailed-view-card-button">
+                <button class="btn btn-dark mr-3" onclick="display('sectionFavouritePlaces')">Back</button>
+                <button class="btn btn-dark">Get Directions</button>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-image: url("https://image.freepik.com/free-photo/cascade-boat-clean-china-natural-rural_1417-1356.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: 100% 100%;
+}
+
+.tourism-card {
+    text-align: center;
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 5px;
+
+}
+
+.button {
+    color: white;
+    background-color: #25b1cc;
+    width: 138px;
+    height: 36px;
+    border-radius: 20px;
+}
+
+.main-heading {
+    font-family: "Bree Serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: #323f4b;
+}
+
+.paragraph {
+    font-family: "Roboto";
+}
+
+.favourite-places-top-section {
+    background-image: url('https://img.traveltriangle.com/blog/wp-content/uploads/2020/01/places-to-visit-in-Bangalore-in-June1.jpg');
+    background-size: 100% 100%;
+    height: 25vh;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.favourite-places-top-section-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: bold;
+    padding: 24px;
+}
+
+.favourite-places-bottom-bg-container {
+    background-image: url('https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/833be8b5-9db0-4e10-b89d-737d6394ade9/nature-wallpaper20.jpg');
+    background-size: cover;
+    padding: 30px;
+}
+
+
+
+.favourite-places-card-container {
+    background-color: white;
+    border-radius: 15px;
+    padding: 16px;
+    text-align: center;
+}
+
+.favourite-places-card-heading {
+    color: #0f0e46;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.favourite-places-card-price {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.favourite-places-card-img {
+    max-width: 70%;
+    max-height: 40%;
+    margin: 10px;
+    border: 15px;
+    border-radius: 10%;
+}
+
+.detailed-view-bg-container {
+    background-image: url('https://res.cloudinary.com/dzbjxiyvy/image/upload/v1603094545/Rectangle_8_cykl2c.png');
+    background-size: cover;
+    padding: 10px;
+    text-align: center;
+}
+
+.detailed-view-heading {
+    color: white;
+    font-size: 22px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    padding: 24px;
+}
+
+.detailed-view-card-container {
+    background-color: white;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin: 24px;
+    max-width: 70%;
+}
+
+.detailed-view-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.detailed-view-card-description {
+    font-family: "Roboto";
+    font-size: 13px;
+    color: #6c6b70;
+
+}
+
+.detailed-view-card-text-container {
+    padding: 16px;
+}
+
+.detailed-view-card-button {
+    text-align: center;
+}
